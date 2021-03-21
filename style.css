@@ -27,11 +27,24 @@ span {
     align-items: center;
 }
 
+.box-paper{
+    margin: 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.paper{
+    margin: 0 35px 0 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
 .avatarface {
-    width: 45px;
-    height: 45px;
+    width: 38px;
+    height: 38px;
     border-radius: 100px;
     justify-self: space-between;
-    display: flex;
     align-items: center;
 }
