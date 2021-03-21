@@ -1,3 +1,8 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
 .bg {
     width: 100%;
     height: 100%;
@@ -11,7 +16,22 @@
     align-items: center;
 }
 
+span {
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+}
+
 .arrow-allrooms {
+    display: flex;
+    align-items: center;
+}
+
+.avatarface {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    justify-self: space-between;
     display: flex;
     align-items: center;
 }
